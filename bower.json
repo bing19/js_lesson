@@ -1,0 +1,7 @@
+{
+  "name": "test",
+  "dependencies": {
+    "jquery": "1.11",
+    "normalize-css": "normalize.css#^4.1.1"
+  }
+}
