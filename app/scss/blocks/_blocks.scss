@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+body {
+	font: normal 1.1em 'Open Sans';
+}
+h1 {
+	color: grey;
+	font-size: 2em;
+	text-decoration: underline;
+}
+h2 {
+	font-family: 'Open Sans';
+	color:#cc0000;
+	font-weight: 400;
+}
+
+.grid6 {
+	width: 80%;
+	margin: 0 auto;
+	/*float: left;*/
+/*	padding: 10px 40px;*/
+}
+
