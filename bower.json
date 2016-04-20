@@ -15,6 +15,7 @@
   "dependencies": {
     "jquery": "1.11",
     "normalize-css": "normalize.css#^4.1.1",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "modernizer": "^2.8.2"
   }
 }

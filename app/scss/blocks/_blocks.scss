@@ -20,3 +20,74 @@ h2 {
 /*	padding: 10px 40px;*/
 }
 
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+.block {
+	border: 1px dashed red;
+	margin: 0 0.6% 20px;
+	padding: 20px;
+	box-sizing:border-box;
+	width: 32%;
+	float: left;
+}
+.block:last-child {
+	margin-right: 0;
+}
+.block2 {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+	
+	img {
+		margin-top: 25px;
+	}
+}
+.block2:last-child {
+	margin-right: 0;
+}
+
+
+@media (max-width:1400px){
+
+	.block2 {
+		width: 100%;
+		margin-right: 0;
+		img {
+			margin: 0 auto;
+			display: block;
+		}
+	}
+}
+
+@media (max-width:1200px){
+
+	h1 {
+	
+	font-size: 1.5em;
+	
+}
+}
+
+@media (max-width:991px){
+
+	.block {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.block2 {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+	
+	img {
+		margin: 0 auto;
+		
+	}
+}
+.block2:last-child {
+	margin-right: 0;
+}
+}

@@ -34,7 +34,7 @@ gulp.task('js', function (){
 //Sass компиляция
 
 gulp.task('sass', function () {
-  return gulp.src('./app/scss/*.scss')
+  return gulp.src('./app/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     // .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest('./app/css'));
@@ -48,7 +48,7 @@ gulp.task('watch', function() {
 	gulp.watch(['./app/*.html'], ['html']);
 	gulp.watch(['./app/css/*.css'], ['css']);
 	gulp.watch(['./app/js/*.js'], ['js']);
-	gulp.watch('./app/scss/*.scss', ['sass']);
+	gulp.watch('./app/scss/**/*.scss', ['sass']);
 });
 
 //Задача по умолчанию
