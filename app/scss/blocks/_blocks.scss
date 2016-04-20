@@ -21,6 +21,7 @@ h2 {
 }
 
 .row {
+	@include clearfix();
 	width: 100%;
 	margin: 0 auto;
 }

@@ -21,6 +21,11 @@ h2 {
 .row {
   width: 100%;
   margin: 0 auto; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
 
 .block {
   border: 1px dashed red;
