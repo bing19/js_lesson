@@ -1,4 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+h1 {
+  margin-bottom: 24px; }
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 12px; }
+
+p {
+  margin-top: 12px; }
+
 body {
   font: normal 1.1em 'Open Sans'; }
 
@@ -77,6 +87,15 @@ h2 {
   top: 50%;
   margin-top: -15px;
   content: ' '; }
+
+.heading-margin {
+  margin: 0; }
+
+.paragraph-margin {
+  margin: 0; }
+
+.heading-margin + .paragraph-margin {
+  margin-top: 15px; }
 
 @media (max-width: 1400px) {
   .block2 {
