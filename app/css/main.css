@@ -97,6 +97,13 @@ h2 {
 .heading-margin + .paragraph-margin {
   margin-top: 15px; }
 
+.wrap {
+  min-height: calc(100vh - 110px); }
+
+.foo {
+  height: 90px;
+  text-align: center; }
+
 @media (max-width: 1400px) {
   .block2 {
     width: 100%;

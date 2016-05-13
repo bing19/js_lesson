@@ -91,6 +91,17 @@ h2 {
 	margin-top: 15px;
 }
 
+//Прилипший футер
+
+.wrap {
+	min-height: calc(100vh - 110px);
+
+}
+.foo {
+	height: 90px;
+	text-align:center;
+
+}
 
 @media (max-width:1400px){
 
