@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "directory": "app/bower"
+=======
+	"directory" : "app/bower"
+>>>>>>> 4682ba919081cc30d5203f690011a93e8d7ddf0f
 }

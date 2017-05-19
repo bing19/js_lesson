@@ -1,8 +1,16 @@
 {
   "devDependencies": {
+<<<<<<< HEAD
     "gulp": "^3.9.1",
     "gulp-connect": "^3.2.2",
     "gulp-livereload": "^3.8.1",
     "opn": "^4.0.1"
+=======
+    "gulp-connect": "~3.2.2",
+    "gulp": "~3.9.1",
+    "opn": "~4.0.1",
+    "gulp-livereload": "~3.8.1",
+    "gulp-sass": "~2.2.0"
+>>>>>>> 4682ba919081cc30d5203f690011a93e8d7ddf0f
   }
 }
